@@ -17,7 +17,7 @@ int main(void) {
 
 	//Init Variables
 	bool active = false;
-	int old_active = 0;
+	bool old_active = false;
 
 	//Init of 7-Segment
 	set_output(PTD7, low_level);
