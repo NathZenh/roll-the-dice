@@ -65,4 +65,4 @@ Dies ist die letzte Datei und beinhaltet nur Funktionen welche die Anzeige auf d
 ![Dice_darstellung](https://github.com/NathZenh/roll-the-dice/assets/46894591/88bb49f4-a025-420b-8c2e-1acceaa22670)
 
 ## Lizenz
-Dieses Programme sind für alle frei zu Nutzen.
+[MIT](https://choosealicense.com/licenses/mit/)
