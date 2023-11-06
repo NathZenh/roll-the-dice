@@ -43,21 +43,15 @@ int main(void) {
 		if (active != old_active){
 			old_active = active;
 
-			switch (old_active) {
-			case 0:
-				printf("Button is released\n");
-				break;
-			case 1:
+			if(!old_active) {
 				printf("Button is pressed\n");
 				set_output(PTD0, low_level);
 				dice();
 				set_output(PTD0, high_level);
-				break;
-			default:
-				printf("\n\nFEHLER\n\n");
+			}else{
+				printf("Button is released\n");
 			}
 		}
 	}
 	return 0;
 }
-
