@@ -7,11 +7,15 @@ Es wird durch betätigen eines Knopfes auf dem Seven-segment display eine Zahl v
 
 ## Visualisierung
 ![Roll_the_Dice_GIF](https://github.com/NathZenh/roll-the-dice/assets/46894591/07bb8a0e-74ce-453c-b156-b380280f5086)
-
+<details>
+  <summary>Video</summary>
+  
 
 https://github.com/NathZenh/roll-the-dice/assets/46894591/62857a1d-f3aa-4d4c-8a3c-752251f1ff68
 
 
+
+</details>
 
 ## Installation
 - Lade die Dateien herunter und füge Sie im "Source" Ordner deines PRGC-Board Projektes hinen. Achte darauf das die Startdatei erstes_programm.c ist.
