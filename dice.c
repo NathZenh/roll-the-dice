@@ -10,12 +10,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
+#include <time.h>
 
 void dice(void) {
 	printf("DICE\n");
 	//Init
 	int number = 0;
 	int old_number = 0;
+	time_t t;
+	// setze einen start abhängig von der Zeit
+	srand((unsigned) time(&t));
 
 	for(int x = 0; x < 7; x++){
 		// generates time to wait longer and longer
@@ -25,7 +29,7 @@ void dice(void) {
 		printf("Number is null: %d \n", number);
 		printf("Oldnumber is null: %d \n", old_number);
 		do{
-			number = rand()%6;
+			number = rand() % 6;
 			printf("Number is: %d \n", number);
 		}while(number == old_number);
 
