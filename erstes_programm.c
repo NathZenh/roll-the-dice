@@ -31,7 +31,7 @@ int main(void) {
 
 	//Check-Input Loop
 	while (true) {
-		if (get_input(PTA2) == high_level) {
+		if (get_input(PTA1) == high_level) {
 			active = false;
 			wait_ms(5);
 		} else {
